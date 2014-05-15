@@ -1,4 +1,4 @@
-, b)
+def gcd(a, b)
   if a > b ? (higher = a and lower = b) : (higher = b and lower = a)
   end
   i = higher - 1
