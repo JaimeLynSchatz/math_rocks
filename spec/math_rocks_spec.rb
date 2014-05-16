@@ -5,4 +5,7 @@ describe MathRocks::Factors do
     MathRocks::Factors.gcd(2, 4).should eql(2)
   end
 
+  it "pluralizes a word"
+    MathRocks::Factors.pluralize("Quotient").should eql("Quotients")
+  end
 end
