@@ -3,7 +3,7 @@ require "math_rocks/version"
 module MathRocks
   # Your code goes here...
   class Factors
-    def self.gcd(a, b)def gcd(a, b)
+    def self.gcd(a, b)
       if a > b ? (higher = a and lower = b) : (higher = b and lower = a)
       end
       i = higher - 1
@@ -30,5 +30,4 @@ module MathRocks
       return abs(a * b) / gcd(a, b)
     end
   end
-end
 end
