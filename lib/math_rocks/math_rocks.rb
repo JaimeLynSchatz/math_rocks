@@ -1,4 +1,5 @@
-require "math_rocks/version"
+require 'math_rocks/version'
+require 'active_support/inflector'
 
 module MathRocks
   # Your code goes here...
@@ -28,6 +29,10 @@ module MathRocks
 
     def self.lcm(a, b)
       return abs(a * b) / gcd(a, b)
+    end
+
+    def self.pluralize(word)
+      word.pluralize
     end
   end
 end
