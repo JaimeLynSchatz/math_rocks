@@ -1,6 +1,6 @@
 # MathRocks
 
-TODO: Write a gem description
+TODO: This is a work in progress. Not ready for consumption.
 
 ## Installation
 
