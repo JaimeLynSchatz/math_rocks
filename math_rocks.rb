@@ -1,3 +1,5 @@
+# small functions written as part of the big Seattle.rb Project Euler 
+# competition, before the site was hacked. :(
 def gcd(a, b)
   if a > b ? (higher = a and lower = b) : (higher = b and lower = a)
   end
